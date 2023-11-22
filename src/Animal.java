@@ -29,6 +29,14 @@ class Mammal extends Animal {
     public Mammal(String name, int age) {
         super(name, age);
     }
+    @Override
+    void eatNhlanhla64896(){
+
+    }
+    @Override
+    void getVoiceNhlanhla64896(){
+
+    }
 }
 class Bird extends Animal{
     String featherColor;
@@ -41,6 +49,16 @@ class Bird extends Animal{
     public Bird(String name, int age, String featherColor) {
         super(name, age);
         this.featherColor = featherColor;
+
+
+    }
+    @Override
+    void eatNhlanhla64896(){
+
+    }
+    @Override
+    void getVoiceNhlanhla64896(){
+
     }
 }
 class Fish extends Animal{
@@ -50,6 +68,16 @@ class Fish extends Animal{
 
     public Fish(String name, int age) {
         super(name, age);
+    }
+
+
+    @Override
+    void eatNhlanhla64896(){
+
+    }
+    @Override
+    void getVoiceNhlanhla64896(){
+
     }
 }
 class Dog extends Mammal{
